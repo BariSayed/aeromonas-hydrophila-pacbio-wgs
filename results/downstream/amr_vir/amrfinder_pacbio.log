@@ -1,0 +1,15 @@
+INFO:    squashfuse not found, will not be able to mount SIF
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    Converting SIF file to temporary sandbox...
+INFO:    underlay of /etc/localtime required more than 50 (77) bind mounts
+Running: /amrfinder/amrfinder -n /home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta --plus -o /home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/amr_vir/amrfinder_pacbio.tsv
+Software directory: /amrfinder/
+Software version: 4.2.7
+Database directory: /amrfinder/data/2026-10-29.1
+Database version: 2026-10-29.1
+AMRFinder translated nucleotide search
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+Running tblastn
+Making report
+amrfinder took 84 seconds to complete
+INFO:    Cleaning up image...

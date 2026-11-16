@@ -63,6 +63,24 @@ provides long reads only, so the short-read and Fast5 columns are set to `NA`.
 The final assembly is provided at `results/assembly/aeromonas_pacbio-flye.assembly.fasta.gz`. Full QC and annotation outputs are in
 `results/` (`qc/`, `annotation/`, and `multiqc_report.html`).
 
+## Downstream characterization
+
+The assembly was further characterized with standard in-silico tools (StaPH-B
+containers). All results are screening of publicly archived sequence data and are
+reported without clinical interpretation.
+
+| Analysis | Tool | Result |
+|---|---|---|
+| Species identity (ANI vs *A. hydrophila* ATCC 7966<sup>T</sup>) | fastANI | **97.11%** average nucleotide identity (> 95% species threshold) |
+| Sequence type | mlst (PubMLST *aeromonas* scheme) | **ST558** |
+| Acquired / intrinsic AMR genes | AMRFinderPlus | aac(6')-Va, bla_KPC-2, bla_OXA-726, bla_TEM, cepS, cphA, mph(A), mrx(A), tet(E) |
+| Virulence genes | ABRicate / VFDB | 135 hits, including aerolysin (*aerA/act*) |
+| Plasmid / mobile content | Flye circularity + PlasmidFinder | contig_3 (39,215 bp, circular; IncP6 replicon, PlasmidFinder 99.9% identity) |
+
+The two genomes in these two repositories share 96.95% ANI and carry different
+sequence types, consistent with distinct *A. hydrophila* isolates. Full tables are
+in `results/downstream/` (`mlst/`, `amr_vir/`, `plasmid/`).
+
 ## Repository contents
 
 ```
@@ -70,6 +88,8 @@ config/        params.yaml, samplesheet.tsv, run.config
 scripts/       run script for the pipeline
 results/       assembly FASTA, QUAST and BUSCO summaries, read statistics,
                Prokka annotation, MultiQC report
+results/downstream/  fastANI, MLST, AMR/virulence (ABRicate, AMRFinderPlus),
+               plasmid replicon and Flye circularity
 ```
 
 Raw reads and large intermediate files (Nextflow `work/`, full `04_results/`) are not tracked;
@@ -78,7 +98,7 @@ see `.gitignore`.
 ## Tools and versions
 
 Nextflow 26.04 · nf-core/bacass 2.6.1 · Apptainer 1.1.9 · Flye 2.9.5 · QUAST 5.3.0 ·
-BUSCO 5.8.3 (bacteria_odb10) · Prokka · MultiQC 1.32 · seqkit 2.1.0
+BUSCO 5.8.3 (bacteria_odb10) · Prokka · MultiQC 1.32 · seqkit 2.1.0 · fastANI · mlst · ABRicate · AMRFinderPlus (StaPH-B containers)
 
 ## Data availability and reproducibility
 

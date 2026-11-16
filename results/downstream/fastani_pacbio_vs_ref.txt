@@ -1,0 +1,1 @@
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	/home/sbau/bacterial_wgs/reference_genomes/ani_ref/Ahydrophila_ATCC7966.fna	97.1142	1478	1665

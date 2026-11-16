@@ -1,0 +1,2 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_3	6914	7719	+	IncP6_1	1-806/806	===============	0/0	100.00	99.88	plasmidfinder	JF785550	IncP6_1__JF785550	

@@ -1,0 +1,6 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_2	914476	915270	-	ampH_1	1-795/795	===============	0/0	100.00	98.11	resfinder	AJ276031	ampH	Amoxicillin;Ampicillin
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_2	1631489	1632253	+	cphA2_6	1-765/765	===============	0/0	100.00	94.77	resfinder	AHU60294	cphA2	
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_2	2953223	2954144	+	mph(A)_2	1-921/921	========/======	1/1	100.00	99.67	resfinder	U36578	mph(A)	Azithromycin;Erythromycin;Spiramycin;Telithromycin
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_2	2971374	2972546	-	tet(E)_3	1-1173/1218	===============	0/0	96.31	96.50	resfinder	CP000645	tet(E)	Doxycycline;Tetracycline
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	contig_3	23975	24856	+	blaKPC-2_1	1-882/882	===============	0/0	100.00	100.00	resfinder	AY034847	blaKPC-2	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Aztreonam;Cefepime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam;Ticarcillin;Ticarcillin+Clavulanic_acid

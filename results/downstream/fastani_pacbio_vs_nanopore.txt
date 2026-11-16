@@ -1,0 +1,1 @@
+/home/sbau/bacterial_wgs/pacbio_aeromonas/05_downstream/pacbio_assembly.fasta	/home/sbau/bacterial_wgs/nanopore_aeromonas/05_downstream/nanopore_assembly.fasta	96.9451	1456	1665
