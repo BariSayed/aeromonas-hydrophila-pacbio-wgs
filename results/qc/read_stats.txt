@@ -1,0 +1,6 @@
+=== PacBio DRR153381 ===
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	Q20(%)	Q30(%)
+/home/sbau/bacterial_wgs/pacbio_aeromonas/00_raw_data/DRR153381_pacbio_subreads.fastq.gz	FASTQ	DNA	139663	946080832	51	6774.0	45388	3212.0	7126.0	9887.0	0	9508	0.00	0.00
+=== Nanopore SRR38923685 ===
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	Q20(%)	Q30(%)
+/home/sbau/bacterial_wgs/nanopore_aeromonas/00_raw_data/SRR38923685_nanopore.fastq.gz	FASTQ	DNA	133986	945451400	5	7056.3	172420	1730.0	3314.0	7589.0	0	16008	88.44	79.76

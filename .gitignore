@@ -1,0 +1,11 @@
+# large / regenerable — NOT tracked
+*.fastq
+*.fastq.gz
+work/
+.nextflow/
+.nextflow.log*
+apptainer_cache/
+04_results/
+*.bam
+*.sif
+*.img
